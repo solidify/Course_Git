@@ -4,9 +4,11 @@ This course is a specialized course that will be run by experienced Git practiti
 
 The course is team based, meaning the participants will be divided into groups that will work together on solving objectives, guided by the trainer(s).  It can be run with between 5 and 20 people.  Anything above 12 people will need 2 trainers.
 
+THe training will be be a mixture of theory, exercise and best practices, with very open minded and experienced trainer(s).  We at [Solidify](https://solidify.se) are using Git as a central element in our work, and are fully committed to it. We are not only trainers, we are long time users and maintainers! The training you get comes from people who are using it actively every day!  
+
 ### Levels and sections
 
-The course is level based and split into sections, each section having a fixed objective, and bringing the participants up to a new level. The levels can be seen in the agenda for the course. 
+The course is level based and split into sections, each section having a fixed objective (or a fixed set), and bringing the participants up to a new level. The levels can be seen in the agenda for the course. 
 
 ### Customizable for in-house training
 
@@ -16,9 +18,13 @@ If the company has a preference on certain tools and remote storages, the course
 
 It is also possible for a company to request special sections to replace some others, to cover special issues the company have seen in their work.  One optional section is a Q/A section, where the trainers and participants engage in a discussion around issues they have, and how to best resolve those. 
 
+We also recommend companies to include the section on organizing and maintaining a git based system, including best practices for this. This is a DevOps related section, and the people in the organisation that is responisble for the git system architecture of the company should partipate in this. 
+
 ### Practices 
 
-You learn best "by doing", so each sections starts with some theory, explaining the relevant principles and practices, and then moves on the hands-on exercises.  There are two types of exercises, one code based, using C# for the most, and one text based, using markdown text files.   Each team can decide by themselves what they choose.  There is really no prerequisite to having any deep knowledge of either C# nor markdown, as the work that will be done is not deeply related to the language per se.  
+You learn best "by doing", so each sections starts with some theory, explaining the relevant principles and practices, and then moves on the **hands-on exercises**.  There are two types of exercises, one code based, using C# for the most, and one text based, using markdown text files.   Each team can decide by themselves what they choose.  There is really no prerequisite to having any deep knowledge of either C# nor markdown, as the work that will be done is not deeply related to the language per se.
+
+The exercises will start off relatively easy, and they we will add more challenging ones as we go, dependent upon which level we are in. 
 
 For a company based course, we are also open to using any other language as the basis, as the course can easily be customized.   
 
