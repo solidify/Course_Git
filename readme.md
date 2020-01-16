@@ -4,7 +4,9 @@ This course is a specialized course that will be run by experienced Git practiti
 
 The course is team based, meaning the participants will be divided into groups that will work together on solving objectives, guided by the trainer(s).  It can be run with between 5 and 20 people.  Anything above 12 people will need 2 trainers.
 
-THe training will be be a mixture of theory, exercises and best practices, with very open minded and experienced trainer(s).  We at [Solidify](https://solidify.se) are using Git as a central element in our work, and are fully committed to it. We are not only trainers, we are long time users and maintainers! The training you get comes from people who are using it actively every day!  
+The course is based on creating an **understanding** on how git works.  Understanding helps you solve new problems.  The exercises are not simple step-by-step guides, but actual problems you learn to solve.
+
+The training will be be a mixture of theory, exercises and best practices, with very open minded and experienced trainer(s).  We at [Solidify](https://solidify.se) are using Git as a central element in our work, and are fully committed to it. We are not only trainers, we are long time users and maintainers! The training you get comes from people who are using it actively every day!  
 
 ### Levels and sections
 
