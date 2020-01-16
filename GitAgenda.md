@@ -20,7 +20,7 @@ We have a [very good definition fo the levels available](https://terjesandstrom.
 
 These levels are from the developers perspective.  From a DevOps perspective you may have have further needs, that we will address in seperate sections.
 
-If you are a company, you most probably need to be be on Level 4.  You will also need to determine how your company will handle a git system.  The course has a section on how 
+If you are a company, you most probably need to be be on Level 4.  You will also need to determine how your company will handle a git system.  The course has a seperate section on maintaing a git system in a company. 
 
 ### Section 1: Level 1 - the basics
 
