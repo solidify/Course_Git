@@ -4,7 +4,7 @@
 
 This section covers the "thinking of git".  You will learn how it all came about, and where it came from. We cover how git is meant to be used, and what differs from other version control systems.  Using Git is also a change of culture, and we discuss this, and will push you to see if something needs to be changed in your company based on this.  
 
-We will walk through the internals of git, and how it is built up.  Then we will show the basic elements of a git system, and how these elements fit together. You will learn about the concepts of distributed version control, and why that works.   
+We will walk through the internals of git, and how it is built up.  Then we will show the basic elements of a git system, and how these elements fit together. You will learn about the concepts of distributed version control, and why that works.  You will learn how git appears on your local machine, and how it works with respect to the remote.  
 
 We will then move on to remote storage options.  The course will later go into details on some of the possible options you have, but we have a special focus on GitHub and Azure DevOps.  We will also touch upon the options you have for creating large git repositories.  You will learn that git repositores should be small and why that should be so, but you will also learn when and how to break that rule. 
 
@@ -28,35 +28,41 @@ This section concentrates on the basic Git operations.  There are not many of th
 
 You will learn how to create a Git repository, and how to connect it to a remote. You will learn how to do all operations to both add to it, edit information and retrieve information. 
 
+During this section you will be introduced to the different local git issues, like staging, indexes 
+
 You might have noticed that this information is actually hosted in a git repository.  With the knowledge from this section, you can do the same!  And the objective of this section is to actually do that, and place your notes from the course in your own similar git repository!  
 
-Option 1: If the partipants have never used git before, we will spend some extra time to work through this more slowly.
+Option 1: If the participants have never used git before, we will spend some extra time (up to 1 hour) to work through this more slowly.
 
-Option 2: If the participants comes from TFS VC we will work through some of the differences in the operations between these two systems. 
+Option 2: If the participants comes from TFS VC we will work through some of the differences in the operations between these two systems.   Expected time 30 mins
 
-This section is relatively easy, and we don't spend too much time here.  Expected time is from 30 min to 1 hour.   
+This section is relatively easy, and we don't spend too much time here.  Expected time is 1 hour.   
 
-### Section 2:  Level 2 - Branching and merging
+### Section 2:  Level 2 - Branching and merging, and creating a readable history using tags
 
 This section is meant to raise your level to where you can safely work with other people on the same repository.  To do that you need to understand and handle branching.  Branching in git is very different from other systems, and is essential to have a good git experience.  We focus on understanding what branches are, and how they actually work, and also why they are so extremely low-cost in git. 
 
 We also cover the theory of branching, and what kind of branching policies you should promote in your work, with your team and in your company.
 
-You will learn how to branch, and the differences between local and remote branches.  This will be connected with what you learned in Section 1, about how branches works with repository syncronization with the remote.
+You will learn how to branch, and the differences and similarities between local and remote branches.  This will be connected with what you learned in Section 1, about how branches works with repository syncronization with the remote.
 
 Merging is a fundamental piece of branching, and as git have different types of mergings we will work through these both in theory and in practice. We will show how you can use conventions to make your branches more easily to handle, and how tools are actually supporting some of these conventions.  
 
 You will also learn how branches can easily be visualized in the recommended tools, and how you should visualize it yourself!  It is different!  
 
+Tags in git are a sibling of branches, and you will learn how they work and for what purpose.  You will understand how it can help you to create a more readable history. You will also learn how to convert between these. 
+
 The exercises you do will be best experienced using the teams we have divided the participants into. You will need to collaborate with your team friends, and together ensure you can work effectively using branches. 
 
-Option 1: Connecting git branches up to work items/issues
+Expected time: 2 hours
 
-Option 2: Deep dive into trunk based developement 
+Option 1: Connecting git branches up to work items/issues (30 mins to 1 hour)
 
-Option 3: Help!  I am drowning in branches!  How to maintain?
+Option 2: Deep dive into trunk based developement (30 mins to 1 hour)
 
-### Section 3: Using Pull Requests 
+Option 3: Help!  I am drowning in branches!  How to maintain?   (30 minutes)
+
+### Section 3: Protecting master and using Pull Requests 
 
 Pull Requests are about how to protect your master branch. In order to ensure you have a working and "green" master, you need to use Pull Requests.  We will work through how you work with pull requests, and (DevOps) how you set up Pull Request policies, which is what actually creates that ensurance.  To set up the policies we will do that using one of the two preferred systems (GitHub and/or Azure DevOps)(companies in-house training can choose).
 
@@ -66,7 +72,17 @@ You will learn how to create pull requests, and how to work with them.  There ar
 
 When you're closing Pull Request you have some choices on how to do that.  We will work through the different options and what they're essential meanings.  This will ensure you know when to use what, and what the consequences of each are. 
 
-The part on establishing a policy in this section is essential for DevOps engineers.  
+The part on establishing a policy in this section is essential for DevOps engineers.
+
+Expected time: 1 hour
+
+### Section 3b: Rebasing
+
+This is a practice which is relevant in two situations, locally when you pull down from a remote,  and remote when you merge a branch. You will learn what it is, how you execute it, and also the dangers of wrongly done rebasing. 
+
+Rebasing is a concept that is often hard to understand, so we will spend some time on getting this clear.
+
+Expected time: 30 mins to 1 hour
 
 ### Section 4: Cleaning up Git mess
 
@@ -84,6 +100,8 @@ Parts of this section is very hard, using some very complex git tools.  It may n
 
 This section is essential when you're working with multiple people and also when you are a DevOps engineer with responsibility for the remote storage for your company. 
 
+Expected time: 2 hours
+
 ### From levels to expansions
 
 These 5 sections will be the fundamentals you need to survive with git.  In the following sections we will expand on that knowledge and broaden the knowledge of git.  These sections can be taken from any other section after section 2. 
@@ -92,10 +110,14 @@ These expansion sections can be options if you have a company in-house training,
 
 Git is both simple and complex. It is simple to use, and extremely robust.  It is complex with respect to the many things you can do with it.  We will show how you can cope with that complexity in the following sections.
 
+Each of the following sections can take from 30 mins to 1 hour.
 
-### Section 5: Git history, blame tools
+
+### Section 5: Git history, blame tools and branches wherever you like
 
 There are several ways to view a git history, and you will learn how the different tools can be used for this purpose, and also how you can find things in a git repository.  Included here is the use of the so-called blame tools, answering your questions on "Who did THIS?".  Not that you really should know......
+
+The git history is not only a read only log.  You can use the history to go back and create branches.  You will also be introduced to working outside branches.
 
 ### Section 6: Configuring Git, including aliasing
 
@@ -103,12 +125,25 @@ Git can be configured in many respects, and we will work through the essentials 
 
 Essential here is that you learn the consequences of wrong configurations, and how that can affect anybodies experience with your git system.
 
-### Section 7:  Manageing git repositories
+### Section 7:  Managing git repositories
 
 After a while you as a person will have many repositories. A company will for certain have multiple. There are ways to organize them, and you will learn how you can do that in a way that inflicts minimal pain. 
 
 You will learn how you can figure out details of your repositories, and in cases where you need to change something with respect to your repository, you will learn different ways of doing that. 
 
+You will also learn practices for backing up git repositories, and how to work whe disasters happens (remote storage down).  Among those practices are how you can set up your own folder based git remotes. 
+
+### Section 8: Working with multiple remote repositories
+
+(Recommended) There are multiple situations than will make it essential to be able to use multiple remote repositories. This knowledge also makes it easier to understand the distributed nature of git. 
+
+You will learn how to configure this, and how to create a structure to make this manageable.
+
+### Section 9: Working with non-owned remote repositories,  aka forking. 
+
+You need this knowledge if you a) are contributing to other peoples open source projects b) are having an inner-source culture in your company and want to contribute to another team's repository.
+
+It is easy to create your own fork of another repository. You will learn how to keep it in sync, and how to contribute back to the source repository in a manner that avoids [Git Mess](#Section-4-Cleaning-up-Git-mess).   
 
 
 

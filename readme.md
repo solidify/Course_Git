@@ -22,13 +22,17 @@ It is also possible for a company to request special sections to replace some ot
 
 We also recommend companies to include the section on organizing and maintaining a git based system, including best practices for this. This is a DevOps related section, and the people in the organisation that is responisble for the git system architecture of the company should partipate in this. 
 
-### Practices 
+### How is the course run 
 
 You learn best "by doing", so each sections starts with some theory, explaining the relevant principles and practices, and then moves on the **hands-on exercises**.  There are two types of exercises, one code based, using C# for the most, and one text based, using markdown text files.   Each team can decide by themselves what they choose.  There is really no prerequisite to having any deep knowledge of either C# nor markdown, as the work that will be done is not deeply related to the language per se.
 
-The exercises will start off relatively easy, and they we will add more challenging ones as we go, dependent upon which level we are in. 
+The exercises will start off relatively easy, and they we will add more challenging ones as we go, dependent upon which level we are in.
 
-For a company based course, we are also open to using any other language as the basis, as the course can easily be customized.   
+The different concepts and git terms are learned as you go along.  When you read the agenda you will notice that the higher numbered sections are using git terms that may be unknown to you.  Rest assured you will learn them as we go.  During the course you can (given company in-house training) decide there and then if you want to go further with a specific part or replace with another. 
+
+For a company based course, we are also open to using any other language as the basis, as the course can easily be customized.  
+
+Also note that we don't seperate between simple concepts and advanced concepts.  Git is inherently simple, but complex with respect to the many commands that exists. Some things can be harder to learn, but if you need that knowledge we will ensure you get it! 
 
 ### Theory and best practices
 
@@ -38,4 +42,4 @@ This section can be extended [for in-company training] with a DevOps related int
 
 Each theory section will also include a "best practices" part, where recommended best practices will be discussed. Since this part is about different ways of doing something, we recommend the particpants to be active with questions and discussions around issues they see. We will timelimit this, so that this does not take up too much time. 
 
-[Git Course Agenda](GitAgenda.md)
+### Go to the [Git Experience Agenda](GitAgenda.md)
